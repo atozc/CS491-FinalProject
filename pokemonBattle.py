@@ -38,7 +38,7 @@ def isPokemonAlive(pokemon):
 def chimchar(enemy):
     enemyhealth = enemy['HP']
     enemydefense = enemy['Defense']
-    power = 0.58
+    power = 0.5
     #if user chose chimchar, it allows them to choose and use a move
 
     #returns the move
@@ -74,7 +74,7 @@ def chimchar(enemy):
 def piplup(enemy):
     enemyhealth = enemy['HP']
     enemydefense = enemy['Defense']
-    power = 0.51
+    power = 0.5
     '''if user chose piplup, it allows them to choose and use a move'''
     moves = [('Bubble',40),('Bubble Beam', 65),('Brine', 65),('Whirlpool', 35)]
     print("Choose a move!")
@@ -109,7 +109,7 @@ def turtwig(enemy):
     '''if user chose turtwig, it allows them to choose and use a move'''
     enemyhealth = enemy['HP']
     enemydefense = enemy['Defense']
-    power = 0.68
+    power = 0.5
     moves = [('Razor Leaf', 55),('Bite', 60),('Tackle', 40),('Crunch', 80)]
     print("Choose a move!")
     print("1 - Razor Leaf")
@@ -168,7 +168,7 @@ def runGame():
             print(pokemon['name']+ " HP: " + str(pokemon['HP']))
             print(enemy['name']+ " HP: " + str(enemy['HP']) + "\n")
             if health < 0:
-                print(pokemon['name'] + " fainted. :(\n")
+                print("Your " + pokemon['name'] + " fainted. :(\n")
                 print("You encountered " + str(pokecount) + " pokemon.")
                 break
 
