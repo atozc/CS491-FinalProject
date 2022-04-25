@@ -172,4 +172,5 @@ def runGame():
                 print("You encountered " + str(pokecount) + " pokemon.")
                 break
 
-runGame()
+if __name__ == '__main__':
+    runGame()
