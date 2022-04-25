@@ -37,4 +37,5 @@ jobs:
     - name: Test unit test files
       run: |
         python unitTest.py
-        1
+        input:
+          1
