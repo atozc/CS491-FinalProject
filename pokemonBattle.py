@@ -1,6 +1,4 @@
-import Enemies 
-from Enemies import damageDone, generatePokemon
-import random
+from Enemies import *
 
 #allows the user to choose their starter pokemon
 def chooseyourstarter():

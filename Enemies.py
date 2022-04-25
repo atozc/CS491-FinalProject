@@ -1,4 +1,4 @@
-import random
+import random 
 
 #Pokemon for random enemy generation
 def generatePokemon():
@@ -32,3 +32,4 @@ def damageDone(enemy, pokemon):
     resultingHP = int(pokemon['HP']) - defended
     print(pokemon['name'] + " lost " + str(defended) + " HP points!")
     return (resultingHP)
+
